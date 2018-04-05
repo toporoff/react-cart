@@ -1,0 +1,13 @@
+{
+    "goods": [
+        { "name": "salad", "price": 12.3 },
+        { "name": "meat", "price": 18.4 },
+        { "name": "bacon", "price": 17.1 },
+        { "name": "cheese", "price": 15.5 },
+        { "name": "potato", "price": 11.6 },
+        { "name": "tomato", "price": 9 },
+        { "name": "avocado", "price": 21 },
+        { "name": "apple", "price": 5 },
+        { "name": "pineapple", "price": 13 }
+    ]
+}

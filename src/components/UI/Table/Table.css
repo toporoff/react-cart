@@ -1,0 +1,41 @@
+.Table {
+    border-collapse: collapse;
+    table-layout: fixed;
+    margin: 20px auto 0;
+    width: 80%;
+}
+
+.Table th,
+.Table td {
+    vertical-align: middle;
+    padding: 3px 6px;
+}
+
+.Table th:not(:last-of-type),
+.Table td:not(:last-of-type) {
+    border-right: 1px solid #aaa;
+}
+
+.Table thead tr,
+.Table tr:not(:last-of-type) {
+    border-bottom: 1px solid #aaa;
+}
+
+.Sortable {
+    cursor: pointer;
+    position: relative;
+}
+
+.Sortable.Asc::after {
+    content: "▼";
+    position: absolute;
+    top: 3px;
+    right: 3px;
+}
+
+.Sortable.Desc::after {
+    content: "▲";
+    position: absolute;
+    top: 3px;
+    right: 3px;
+}

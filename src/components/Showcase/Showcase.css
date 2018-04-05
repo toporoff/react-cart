@@ -1,0 +1,12 @@
+.Showcase {
+    text-align: center;
+}
+
+.Showcase .ShowcaseItems {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin: 0 auto 15px auto;    
+    justify-content: center;
+    width: 80%;
+}
