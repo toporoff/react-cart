@@ -11,3 +11,4 @@ To run project...
 ```
 $ npm start
 ```
+The project is also available by link: [https://react-cart-cd436.firebaseapp.com/](https://react-cart-cd436.firebaseapp.com/)
